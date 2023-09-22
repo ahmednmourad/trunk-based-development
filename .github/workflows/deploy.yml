@@ -18,6 +18,7 @@ jobs:
     needs: dev-deploy
     environment:
       name: Staging
+    if: github.event.ref == 'refs/heads/main'
     steps:
       - run: echo "Deploying to Staging Environment"
 
@@ -26,5 +27,6 @@ jobs:
     needs: staging-deploy
     environment:
       name: Production
+    if: github.event.ref == 'refs/heads/main'
     steps:
       - run: echo "Deploying to Production Environment"
