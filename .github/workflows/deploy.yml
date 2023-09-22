@@ -13,6 +13,13 @@ jobs:
     steps:
       - run: echo "Deploying to Development Environment"
 
+  staging-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: Staging
+    steps:
+      - run: echo "Deploying to Staging Environment"
+
   prod-deploy:
     runs-on: ubuntu-latest
     needs: dev-deploy
