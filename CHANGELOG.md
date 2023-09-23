@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/ahmednmourad/multi-environment-cicd/compare/v1.1.0...v1.2.0) (2023-09-23)
+
+
+### Features
+
+* Restrict staging & prod jobs to run on main branch ([98b25f0](https://github.com/ahmednmourad/multi-environment-cicd/commit/98b25f0088580e9677b4bcb0e173789e8ad6a541))
+
 ## [1.1.0](https://github.com/ahmednmourad/Multi-Environment-CICD/compare/v1.0.0...v1.1.0) (2023-09-22)
 
 
