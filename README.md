@@ -10,13 +10,13 @@ For more details on trunk-based development, please visit [trunkbaseddevelopment
 
 To get started with this project, follow these steps:
 
-1. **Create a RELEASE_PLEASE_TOKEN Secret**
+1. **Create a PERSONAL_ACCESS_TOKEN Secret**
 
-   To automate releases, you'll need to create a secret named `RELEASE_PLEASE_TOKEN`. This token allows the Release Please Action to manage releases in your repository:
+   To automate releases, you'll need to create a secret named `PERSONAL_ACCESS_TOKEN`. This token allows the Release Please Action to manage releases in your repository:
 
    - Go to your GitHub repository.
    - Navigate to "Settings."
-   - Under "Secrets," create a new repository secret named `RELEASE_PLEASE_TOKEN` and paste in your personal access token.
+   - Under "Secrets," create a new repository secret named `PERSONAL_ACCESS_TOKEN` and paste in your personal access token.
 
 2. **Create Environments**
 
