@@ -2,7 +2,7 @@
 
 This project follows a trunk-based development approach to maintain an efficient and streamlined development process. Trunk-based development is a version control management practice in which developers merge small, frequent updates directly into the main branch, known as the "trunk."
 
-A key guiding principle is that Trunk-Based Development teams exclusively either release directly from the trunk (see [Release from Trunk](https://trunkbaseddevelopment.com/release-from-trunk/)), or they create a branch from the trunk specifically for the actual release (see [Branch for Release](https://trunkbaseddevelopment.com/branch-for-release/)). In this project, we have chosen the former option, releasing directly from the trunk to multiple environments (dev, staging, prod).
+A key guiding principle is that Trunk-Based Development teams exclusively either release directly from the trunk (see [Release from Trunk](https://trunkbaseddevelopment.com/release-from-trunk/)), or they create a branch from the trunk specifically for the actual release (see [Branch for Release](https://trunkbaseddevelopment.com/branch-for-release/)). In this project,the former option was chosen, releasing directly from the trunk to multiple environments (dev, staging, prod).
 
 For more details on trunk-based development, please visit [trunkbaseddevelopment.com](https://trunkbaseddevelopment.com/).
 
